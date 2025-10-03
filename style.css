@@ -51,6 +51,16 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.computer_choice {
+    background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 .options {
     display: flex;
     flex-direction: column;
@@ -78,10 +88,16 @@ button {
 
 .results {
     background-color: #1F2937;
-    padding: 100px;
+    padding: 50px;
     color: aliceblue;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
 }
+
+#rock {}
+
+#paper {}
+
+#scissors {}
