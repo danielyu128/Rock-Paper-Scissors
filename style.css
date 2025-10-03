@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+img {
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.game_title {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.game_zone {
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    background-color: ;
+    padding: 50px;
+
+}
+
+.player_score {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.computer_score {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+.user_option {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.rpc {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.imagecombo {
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    background-color: #1F2937;
+    padding: 100px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
